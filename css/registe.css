@@ -1,0 +1,129 @@
+body{margin: 0px;}
+.all{width: 100%;}
+ul,li{margin: 0px;padding: 0px;list-style: none;}
+.border{border: solid 1px #e1e1e1;}
+.top{width: 1228px;margin: 0px auto;padding: 16px;height: 55px;background-color: white;}
+.top-1{float: left;}
+.top-2{float: right;}
+.top-2{font-size: 12px;color: #999;}
+.top-2 a:link,.top-2 a:visited{
+	color: blue;
+	cursor: pointer;
+	text-decoration: none;
+	
+}	
+.top-2 a:hover,.top-2 a:active {
+	
+    color: orange;
+    
+    cursor: pointer;
+}
+
+		
+.a a{	text-decoration: none;}
+.a a:link,.a a:visited{
+	color: #666666;
+	cursor: pointer;
+	
+	
+}			
+.a a:hover,.a a:active {
+	
+    color: red;
+    
+    cursor: pointer;
+}
+
+
+.help{float: right;margin-left: 25px;padding: 0px 6px;display: block;}
+.help a{z-index: 9999;}
+.help a:hover{color: red;}
+.help img{padding-right: 8px;height: 13px;vertical-align: middle;}
+.help input{padding-left: 5px;vertical-align: middle;}
+.menu1{position: absolute;padding-top: 5px;top: 35px;right: 340px;width: 98px;height: 100px;text-align: center;font-size: 12px;display: none;}
+.menu1 ul{border: 1px solid #ccc;}
+.menu1 li{line-height: 25px;border-bottom:1px solid #ccc;background: white;}
+
+.r-body{height: 500px;border-bottom: 1px solid #f4f4f4;}
+.model{margin: 0px auto;width: 330px;height: 463px;}
+.model h4{font-size: 24px;text-align: center;}
+
+/*去除number框的上下箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+
+
+
+.loadin{z-index: 150;}
+
+.loadin ul li{width: 560px;position: relative;}
+.name{padding: 14px 18px;border: solid 1px #dedede;margin-bottom: 10px;position: relative;width: 330px;}
+.name input{outline: none;border: none;width: 300px;z-index: 2s;}
+.name span{ position: absolute;left: 20px;top: 0px;display: inline-block;height: 50px;font-size: 14px;line-height: 50px;color: #666;}
+
+
+
+.phone{padding: 14px 18px;border: solid 1px #dedede;margin-bottom: 10px;position: relative;width: 330px;}
+.phone input{outline: none;border: none;width: 300px;}
+.phone span{ position: absolute;left: 20px;top: 0px;display: inline-block;height: 50px;font-size: 14px;line-height: 50px;color: #666;}
+
+.passage{padding: 14px 18px;border: solid 1px #dedede;margin-bottom: 10px;position: relative;width: 192px;float: left;}
+#yanzheng{margin-left: 10px;}
+.passage input{outline: none;border: none;width: 192px;}
+.passage span{ position: absolute;left: 20px;top: 0px;display: inline-block;height: 50px;font-size: 14px;line-height: 50px;color: #666;}
+
+.password{padding: 14px 18px;border: solid 1px #dedede;margin-bottom: 10px;position: relative;width: 330px;}
+.password input{outline: none;border: none;width: 300px;}
+.password span{ position: absolute;left: 20px;top: 0px;display: inline-block;height: 50px;font-size: 14px;line-height: 50px;color: #666;}
+
+.repassword{padding: 14px 18px;border: solid 1px #dedede;margin-bottom: 10px;position: relative;width: 330px;}
+.repassword input{outline: none;border: none;width: 300px;}
+.repassword span{ position: absolute;left: 20px;top: 0px;display: inline-block;height: 50px;font-size: 14px;line-height: 50px;color: #666;}
+
+.tips{position: absolute;left: 380px;top: 1px;float: left;font-size: 12px;background: #e4e4e4;padding: 10px;display: none;}
+.warn{position: absolute;left: 380px;top: 7px;float: left;font-size: 12px;background: #fff4d7;padding: 10px;display: none;}
+.true{position: absolute;left: 380px;top: 7px;float: left;font-size: 12px;padding: 10px;display: none;}
+
+#registe-botton{ 
+	width: 367px;
+    height: 52px;
+    border: 0 none;
+    border-radius: 3px;
+    background: #ff3c3c;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #ff7373;
+    font-family: "Microsoft YaHei";
+    line-height: 52px;
+}
+.agree{font-size: 12px;margin:20px 0px;}
+.agree a{	text-decoration: none;}
+.agree a:link,.agree a:visited{
+	color: #06c;
+	cursor: pointer;
+	
+	
+}			
+
+.agree a{text-decoration: none;margin: 0px 10px;}
+
+.foot{width: 980px;margin: 0px auto;padding-top: 5px;text-align: center;font-size: 12px;color: #333;}
+
+.a a{	text-decoration: none;}
+.a a:link,.a a:visited{
+	color: #666666;
+	cursor: pointer;
+	
+	
+}			
+.a a:hover,.a a:active {
+	
+    color: red;
+    
+    cursor: pointer;
+}
